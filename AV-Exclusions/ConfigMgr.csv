@@ -1,0 +1,47 @@
+FilePath,FileType,Process
+%windir%\CCM\*.sdf,.mdf,%windir%\CCM\Ccmexec.exe
+%windir%\CCM\Logs,.ldf,%windir%\SMS_CCM\Ccmexec.exe
+%windir%\CCM\ServiceData,.ndf,%windir%\System32\inetsrv\w3wp.exe
+%windir%\CCMCache,.bak,%windir%\SysWOW64\inetsrv\w3wp.exe
+%windir%\CCMSetup,.trn,%ProgramFiles%\Microsoft Configuration Manager\bin\x64\Cmupdate.exe
+%ProgramFiles%\Microsoft Configuration Manager\Inboxes\*.*,.sqlaudit,%ProgramFiles%\Microsoft Configuration Manager\bin\x64\Sitecomp.exe
+%ProgramFiles%\Microsoft Configuration Manager\Install.map,.sql,%ProgramFiles%\Microsoft Configuration Manager\bin\x64\Smsexec.exe
+%ProgramFiles%\Microsoft Configuration Manager\Logs,.trc,%ProgramFiles%\Microsoft Configuration Manager\bin\x64\Smssqlbbkup.exe
+%ProgramFiles%\SMS_CCM\Logs,,%ProgramFiles%\Microsoft Configuration Manager\bin\x64\Smswriter.exe
+%ProgramFiles%\SMS_CCM\ServiceData,,%ProgramFiles%\Microsoft SQL Server\MSSQL13.MSSQLSERVER\MSSQL\Binn\SQLServr.exe
+%ProgramFiles%\Microsoft Configuration Manager\cd.latest,,%ProgramFiles%\Microsoft SQL Server\MSRS13.MSSQLSERVER\Reporting Services\ReportServer\Bin\ReportingServicesService.exe
+%ProgramFiles%\Microsoft Configuration Manager\EasySetupPayload,,
+%ProgramFiles%\Microsoft Configuration Manager\AdminUIContentPayload,,
+%ProgramFiles%\Microsoft Configuration Manager\AdminUIContentStaging,,
+%ProgramFiles%\Microsoft Configuration Manager\CMUStaging,,
+%ProgramFiles%\Microsoft Configuration Manager\CMUClient,,
+%ProgramFiles%\Microsoft Configuration Manager\PilotingUpgrade,,
+%ProgramFiles%\Microsoft Configuration Manager\RLAStaging,,
+%ProgramFiles%\Microsoft Configuration Manager\CMProviderLog,,
+%ProgramFiles%\Microsoft SQL Server\MSSQL13.MSSQLSERVER\MSSQL\FTData,,
+%ProgramFiles%\Microsoft SQL Server\MSRS13.MSSQLSERVER\Reporting Services\LogFiles,,
+%ProgramFiles%\Microsoft SQL Server\MSRS13.MSSQLSERVER\Reporting Services\RSTempFiles,,
+%ProgramFiles%\Update Services\LogFiles\WSUSTemp,,
+%SystemDrive%\inetpub\temp\IIS Temporary Compressed Files,,
+%SystemRoot%\SoftwareDistribution\Datastore,,
+%SystemRoot%\SoftwareDistribution\Download,,
+C:\SMSPKG,,
+H:\SMS_DP$,,
+H:\SMSPKGI$,,
+H:\SMSPKGSIG,,
+H:\SMSSIG$,,
+H:\SCCMContentLib,,
+H:\WSUS,,
+%windir%\SoftwareDistribution\Datastore\Datastore.edb,,
+%windir%\SoftwareDistribution\Datastore\Logs\Res*.log,,
+%windir%\SoftwareDistribution\Datastore\Logs\Res*.jrs,,
+%windir%\SoftwareDistribution\Datastore\Logs\Edb.chk,,
+%windir%\SoftwareDistribution\Datastore\Logs\Tmp.edb,,
+%windir%\Security\Database\*.edb,,
+%windir%\Security\Database\*.sdb,,
+%windir%\Security\Database\*.log,,
+%windir%\Security\Database\*.chk,,
+%windir%\Security\Database\*.jrs,,
+%ALLUSERSPROFILE%\NTuser.pol,,
+%SystemRoot%\System32\GroupPolicy\Machine\registry.pol,,
+%SystemRoot%\System32\GroupPolicy\User\registry.pol,,
