@@ -1,2 +1,2 @@
 # ConfigMgr-Scripts
-Scripts utilizing the Configuration Manager PowerShell cmdlets.
+Scripts to be used with Microsoft Endpoint Manager Configuration Manager.
